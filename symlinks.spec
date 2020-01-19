@@ -2,7 +2,7 @@ Summary: A utility which maintains a system's symbolic links
 Name: symlinks
 URL: ftp://metalab.unc.edu/pub/Linux/utils/file/
 Version: 1.4
-Release: 7%{?dist}
+Release: 9%{?dist}
 Group: Applications/System
 License: Copyright only
 Source0: http://ibiblio.org/pub/Linux/utils/file/%{name}-%{version}.tar.gz
@@ -51,6 +51,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man8/symlinks.8*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.4-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4-8
+- Mass rebuild 2013-12-27
+
 * Fri Feb 15 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.4-7
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
